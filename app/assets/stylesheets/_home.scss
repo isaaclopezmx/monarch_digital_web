@@ -1,0 +1,81 @@
+.black-cont {
+  background-color: #070D21;
+}
+
+.homesec-one {
+  min-height: 75vh;
+}
+
+.intro-header {
+  padding-top: 7vh;
+}
+
+.black-cont {
+  position: relative;
+  /* to contain the absolutely positioned child */
+}
+
+.mission-cont {
+  background-color: #F5F5F5;
+}
+
+.cause-text {
+  color: #070D21;
+  line-height: 1 !important;
+}
+
+.marker-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  transform: skew(-12deg);
+  background: rgba(190, 87, 238, 0.55);
+}
+
+.mission-section {
+  min-height: 50vh;
+  padding-top: 10vh;
+}
+
+.image-container img {
+  position: absolute;
+  max-height: 70vh;
+  right: 45px;
+  background-position: right;
+  z-index: 1;
+  /* to ensure it's above the content inside black-cont */
+}
+
+.hero-button {
+  background: linear-gradient(90deg, rgba(155, 95, 255, 1) 0%, rgba(3, 255, 255, 1) 100%);
+  border: none;
+}
+
+.banner {
+  background-color: #230d3a;
+  min-height: 7vh;
+
+}
+
+@media (max-width: 768px) {
+
+  /* Adjust the breakpoint as needed */
+  .responsive-break {
+    display: none;
+    /* Hides the <br> tag on smaller screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-header {
+    padding-top: 15vh;
+    /* Adjust as needed for desktop */
+  }
+}

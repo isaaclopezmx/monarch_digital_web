@@ -1,0 +1,39 @@
+<nav class="navbar bg-dark border-body navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center w-100">
+      <div class="container logo-box m-0">
+        <a class="navbar-brand" href="<%= home_path %>">
+          <%= image_tag "final_logo_web.svg", alt: "Monarch Digital", height: "35", class: "d-inline-block align-top" %>
+        </a>
+      </div>
+      <!-- Navbar Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <!-- Offcanvas Component -->
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link link-hover normal-link" href=" <%= about_path %> ">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-hover normal-link" href="<%= services_path %>">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-hover normal-link" href=" <%= portfolio_path %>">Porfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link contact-hover" href="<%= contact_path %>" style="color: #C64DFF;">Contact</a>
+          </li>
+        </ul>
+        <div>
+        </div>
+      </div>
+    </div>
+  </nav>
