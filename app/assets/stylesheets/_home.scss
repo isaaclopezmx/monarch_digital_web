@@ -1,5 +1,6 @@
 .black-cont {
-  background-color: #070D21;
+  background: rgb(7, 13, 33);
+  background: linear-gradient(180deg, rgba(7, 13, 33, 1) 0%, rgba(35, 13, 58, 1) 100%);
 }
 
 .homesec-one {
@@ -17,6 +18,40 @@
 
 .mission-cont {
   background-color: #F5F5F5;
+}
+
+.services-cont {
+  background: rgb(7, 13, 33);
+  background: linear-gradient(0deg, rgba(7, 13, 33, 1) 0%, rgba(35, 13, 58, 1) 100%);
+  min-height: 75vh;
+}
+
+.services-section {
+  padding-top: 7vh;
+}
+
+.card.glass-effect {
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(204, 95, 255, 0.3);
+}
+
+.card-link-hover:hover {
+  color: #03ffff !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-link-hover {
+  text-decoration: none;
+}
+
+.testimonial-text {
+  color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
 }
 
 .cause-text {
@@ -77,5 +112,20 @@
   .intro-header {
     padding-top: 15vh;
     /* Adjust as needed for desktop */
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  #mission .col-lg-5 h1,
+  #mission .col-lg-7 h1,
+  #mission .col-lg-4 h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mission-section {
+    padding-top: 5vh;
   }
 }
