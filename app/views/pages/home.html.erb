@@ -3,6 +3,9 @@
     <div class="container image-container d-none d-md-block">
       <img src="/assets/background_image_2.svg" alt="geo lines" class="">
     </div>
+    <div class="container image-container-mobile d-md-none">
+      <img src="/assets/background_image_2.svg" alt="geo lines" class="">
+    </div>
     <div class="container-lg homesec-one">
       <div class="row justify-content-start">
         <div class="col-lg-12 text-start intro-header">
@@ -13,7 +16,7 @@
             <div class="display-6 pt-1" style="font-size: 19px; color: #FFFFFF">Partner with allies that think strategically, design effectively,<span class="responsive-break"><br>
               </span>
               and turn your vision into impactful change.</div>
-            <div class="pt-2"><a class="btn hero-button" href="#" role="button">Our Work</a></div>
+            <div class="pt-2"><a class="btn hero-button" href="<%= portfolio_path %>" role="button">Our Work</a></div>
           </h1>
         </div>
       </div>
@@ -25,7 +28,7 @@
     <div class="container-lg banner-text">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
-          <h2 class="display-6" style="font-size: 18px; color: #FFFFFF; text-transform: uppercase; letter-spacing: 5px;">UNITING CAUSES, CRAFTING DESIGN, INSPIRING ACTION</h2>
+          <h2 class="banner-text-mobile display-6" style="font-size: 18px; color: #FFFFFF; text-transform: uppercase; letter-spacing: 5px;">UNITING CAUSES, CRAFTING DESIGN, INSPIRING ACTION</h2>
         </div>
       </div>
     </div>
@@ -52,10 +55,10 @@
           </h1>
         </div>
       </div>
-      <div class="row justify-content-between pt-4">
+      <div class="row justify-content-between pt-4 pb-5">
         <div class="col-lg-4 text-start">
           <h1>
-            <div class="display-6 align-items-center text-muted" style="font-size: 18px">The world our partners fight for is what drives us. Our team comes from political campaigns, social advocacy, design, technology and communications.</div>
+            <div class="display-6 align-items-center text-muted" style="font-size: 18px">The world our partners fight for is what drives us. Our team comes from political campaigns, issue advocacy, design, technology and communications.</div>
           </h1>
         </div>
         <div class="col-lg-7 text-start">
@@ -112,7 +115,7 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-between pt-5">
+      <div class="row justify-content-between pt-5" id="testimonial-row">
         <div class="services col-12-lg text-center">
           <h3 class="testimonial-text" style="color: #FFFFFF; font-size: 20px;">
             "We worked with Monarch Digital for about a year and a half at FAMM, and their professional, eye-catching designs elevated our social media presence. Accommodating and skilled, the team met all deadlines, offered valuable strategy suggestions, and was consistently easy to work with."<br>
@@ -123,5 +126,49 @@
       </div>
     </div>
   </div>
-</div>
+</section>
+<section id="movement-makers">
+  <div class="container-fluid movement-makers-cont">
+    <div class="container-lg movementmakers-section">
+      <div class="row justify-content-between">
+        <div class="col-lg-5 text-start">
+          <h1>
+            <div class="display-5 cause-text">
+              <span class="marker-underline">Movement Makers
+                <div class="underline"></div>
+              </span><br>
+              trust Monarch Digital.
+            </div>
+          </h1>
+        </div>
+        <div class="col-lg-7 pt-4">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-4 col-4 logo-container-home">
+              <%= image_tag "latinxedlogo.png", class: "logo"%>
+            </div>
+            <div class="col-lg-3 col-md-4 col-4 logo-container-home">
+              <%= image_tag "fammlogo.png", class: "logo"%>
+            </div>
+            <div class="col-lg-3 col-md-4 col-4 logo-container-home">
+              <%= image_tag "newpoderlatinxlogo.png", class: "logo"%>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between pt-5">
+        <div class="col-lg-3 col-md-4 col-6 logo-container-home">
+          <%= image_tag "ricky_house.png", class: "logo"%>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 logo-container-home">
+          <%= image_tag "runtheworldlogo.png", class: "logo"%>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 logo-container-home">
+          <%= image_tag "ncdplogo.png", class: "logo"%>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 logo-container-home">
+          <%= image_tag "acdplogo.png", class: "logo"%>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

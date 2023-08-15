@@ -1,3 +1,12 @@
 @import "home";
+@import "about";
 @import "navbar";
 @import "bootstrap/scss/bootstrap";
+@import "footer";
+@import "font-awesome";
+
+body,
+html {
+  overflow-x: hidden;
+  /* Prevents horizontal scrolling */
+}

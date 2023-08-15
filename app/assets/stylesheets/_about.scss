@@ -1,0 +1,17 @@
+.aboutheader-cont {
+  background:
+    linear-gradient(180deg, rgba(7, 13, 33, 0.2) 0%, rgba(35, 13, 58, 0.2) 100%),
+    /* Gradient overlay */
+    url(image-path('rickybackgroundimage.png'));
+  /* Actual background image */
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}
+
+.aboutimage-container {
+  min-height: 70vh;
+}

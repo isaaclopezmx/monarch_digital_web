@@ -27,7 +27,20 @@
 }
 
 .services-section {
-  padding-top: 7vh;
+  padding-top: 5vh;
+}
+
+.movement-makers-cont {
+  background-color: #F5F5F5;
+  min-height: 50vh;
+}
+
+.movementmakers-section {
+  padding-top: 5vh;
+}
+
+.trust-monarch {
+  font-size: 40px;
 }
 
 .card.glass-effect {
@@ -83,9 +96,34 @@
   position: absolute;
   max-height: 70vh;
   right: 45px;
-  background-position: right;
   z-index: 1;
-  /* to ensure it's above the content inside black-cont */
+}
+
+.image-container-mobile img {
+  position: absolute;
+  max-height: 55vh;
+  bottom: -16px;
+  right: -40%;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .image-container-mobile {
+    display: block;
+  }
+
+  .image-container {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .image-container img {
+    max-height: 65vh;
+    right: -18VH;
+    bottom: 0.5vh;
+    /* Adjust this value to position the image partially off-screen for tablets */
+  }
 }
 
 .hero-button {
@@ -97,6 +135,56 @@
   background-color: #230d3a;
   min-height: 7vh;
 
+}
+
+.banner {
+  border-top: 1px solid #E2A5FF;
+  /* Replace with your desired color */
+}
+
+.logo-container-home {
+  /* Center the logos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  /* Set specific dimensions for the image */
+  height: 100px;
+  width: auto;
+  /* Maintain aspect ratio without distortion */
+  object-fit: contain;
+  /* Center the logo if needed */
+  display: block;
+  margin: 0 auto;
+}
+
+.wrap-row {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+
+  .logo-container-home,
+  .logo-container {
+    /* Stack the logos vertically on smaller screens */
+    flex-direction: column;
+    /* Add some space between the logos */
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    /* Set a smaller size for the logos on mobile screens */
+    height: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-text-mobile {
+    font-size: 15px !important;
+    /* Adjust this value to the desired font size on mobile */
+  }
 }
 
 @media (max-width: 768px) {
@@ -115,6 +203,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  #services #testimonial-row {
+    padding-top: 0vh !important;
+    padding-bottom: 4vh !important;
+  }
+}
+
 @media (max-width: 991.98px) {
 
   #mission .col-lg-5 h1,
@@ -127,5 +222,33 @@
 @media (max-width: 991.98px) {
   .mission-section {
     padding-top: 5vh;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #services .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #services .card {
+    margin: 0 auto;
+    margin-bottom: 4vh;
+    /* Center the card */
+  }
+
+  #services .card-title,
+  #services .card-subtitle,
+  #services .card-text {
+    text-align: center;
+    /* Center the text inside the card */
+  }
+
+  #services .services {
+    text-align: center;
+    /* Center the testimonial text */
   }
 }
