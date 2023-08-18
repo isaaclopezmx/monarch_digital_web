@@ -1,6 +1,6 @@
 .aboutheader-cont {
   background:
-    linear-gradient(180deg, rgba(7, 13, 33, 0.2) 0%, rgba(35, 13, 58, 0.2) 100%),
+    linear-gradient(180deg, rgba(7, 13, 33, 0) 0%, rgba(35, 13, 58, 0.7049194677871149) 54%, rgba(7, 13, 33, 1) 100%),
     /* Gradient overlay */
     url(image-path('rickybackgroundimage.png'));
   /* Actual background image */
@@ -12,6 +12,164 @@
   /* To prevent the image from repeating */
 }
 
+.abouttextoverlayone {
+  background-color: rgb(7, 13, 33);
+  color: #FFFFFF;
+  padding: 10px;
+  /* Adjust as needed */
+  width: 20vh;
+  /* Ensures the background only covers the text */
+}
+
+.abouttextoverlaytwo {
+  background-color: rgb(7, 13, 33);
+  color: #FFFFFF;
+  padding: 10px;
+  /* Adjust as needed */
+  width: 52vh;
+  /* Ensures the background only covers the text */
+}
+
+.about-title .line1,
+.about-title .line2 {
+  color: #FFFFFF;
+  margin: 0;
+  /* Remove default margins */
+}
+
+.about-title .line2 {
+  margin-top: 1px;
+  /* Control the spacing between lines */
+}
+
 .aboutimage-container {
   min-height: 70vh;
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: flex-end;
+  /* Align children to the bottom */
+  padding-bottom: 7vh;
+  /* Optional padding at the bottom */
+}
+
+.aboutmain-cont {
+  background: linear-gradient(0deg, rgba(35, 13, 58, 1) 0%, rgba(7, 13, 33, 1) 100%);
+  min-height: auto;
+}
+
+.about-section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.team-divider {
+  min-height: 20vh;
+  background: linear-gradient(to top,
+      #b553e2 0%,
+      #b553e2 50%,
+      #1D0C33 50%,
+      #1D0C33 100%);
+}
+
+.top {
+  min-height: 50%;
+  background-color: aqua;
+}
+
+.missionabout-text {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.whoweare-cont {
+  background: #F5F5F5;
+  min-height: auto;
+}
+
+.whoweare-cont {
+  background-color: #F5F5F5;
+}
+
+.whowearebg-cont {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.whoweare-photos {
+  min-height: 40vh;
+}
+
+.photos {
+  min-height: 40vh;
+}
+
+.photo-two {
+  background-image: url(image-path('capitolhillbg.jpg'));
+  background-size: cover;
+  filter: grayscale(100%);
+  background-position: center;
+}
+
+.photo-three {
+  background-image: url(image-path('consulting.png'));
+  background-size: cover;
+  filter: grayscale(100%);
+  background-position: center;
+}
+
+.photo-four {
+  background-image: url(image-path('palacionacional.png'));
+  background-size: cover;
+  filter: grayscale(100%);
+  background-position: center;
+}
+
+.team-cont {
+  background-color: #F5F5F5;
+  min-height: auto;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teamphoto-one {
+  min-height: 500px;
+  background-image: url(image-path('isaacweb.png'));
+  background-size: cover;
+  background-position: center 5%;
+  filter: grayscale(100%);
+}
+
+.teamphoto-two {
+  min-height: 500px;
+  background-image: url(image-path('kp2.png'));
+  background-size: cover;
+  background-position: center 5%;
+  filter: grayscale(100%);
+}
+
+.isaacphoto {
+  height: 100%;
+}
+
+.team-text {
+  color: rgb(7, 13, 33);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.team-text {
+  color: rgb(7, 13, 33);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }

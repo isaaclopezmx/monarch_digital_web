@@ -1,0 +1,67 @@
+.portfolioheader-cont {
+  background:
+    linear-gradient(180deg, rgba(7, 13, 33, 0) 0%, rgba(35, 13, 58, 0.7049194677871149) 54%, rgba(7, 13, 33, 1) 100%),
+    /* Gradient overlay */
+    url(image-path('fammservices.png'));
+  /* Actual background image */
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center 50%;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}
+
+.portfolioimage-container {
+  min-height: 70vh;
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: flex-end;
+  /* Align children to the bottom */
+  padding-bottom: 7vh;
+  /* Optional padding at the bottom */
+}
+
+.portfoliomain-cont {
+  background: linear-gradient(0deg, rgba(35, 13, 58, 1) 0%, rgba(7, 13, 33, 1) 100%);
+  min-height: auto;
+}
+
+.portfolio-section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.workexamples-cont {
+  background: linear-gradient(0deg, rgba(7, 13, 33, 1) 0%, rgba(35, 13, 58, 1) 100%);
+  min-height: auto;
+}
+
+.workexamples-section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+  min-height: auto;
+}
+
+.top-cont {
+  background-color: #b553e2;
+  min-height: 30vh;
+}
+
+.carousel-inner {
+  max-height: 70vh;
+  object-fit: cover;
+  /* Makes the image cover the container while maintaining aspect ratio */
+
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-item {
+  height: 70vh;
+}

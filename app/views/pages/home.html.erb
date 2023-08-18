@@ -87,8 +87,8 @@
         <div class="col-lg-3">
           <div class="card glass-effect" style="width: 20rem;">
             <div class="card-body">
-              <h5 class="card-title display-6" style="color: #FFFFFF;">At the center</h5>
-              <h6 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Strategy</h6>
+              <h2 class="card-title display-6" style="color: #FFFFFF;">At the center</h2>
+              <h5 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Strategy</h5>
               <p class="card-text" style="color: #FFFFFF; font-size: 15px;">Unlock your organization's full digital potential with our strategic approach. We mold your message, devise targeted content, and shape your brand narrative to connect with the right audience, fostering growth and impact.</p>
               <a href=" <%= about_path %> " class="card-link-hover" style="color: #C64DFF;">Learn more</a>
             </div>
@@ -97,8 +97,8 @@
         <div class="col-lg-3">
           <div class="card glass-effect" style="width: 20rem;">
             <div class="card-body">
-              <h5 class="card-title display-6" style="color: #FFFFFF;">On the surface</h5>
-              <h6 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Digital</h6>
+              <h2 class="card-title display-6" style="color: #FFFFFF;">On the surface</h2>
+              <h5 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Digital</h5>
               <p class="card-text" style="color: #FFFFFF; font-size: 15px;">In today's digital era, your online persona speaks volumes. Whether you're creating a unique online presence for your brand or amplifying your mission with immersive media experiences, we'll help you create a resonant and enduring digital footprint.</p>
               <a href=" <%= about_path %> " class="card-link-hover" style="color: #C64DFF;">Learn more</a>
             </div>
@@ -107,8 +107,8 @@
         <div class="col-lg-3">
           <div class="card glass-effect" style="width: 20rem;">
             <div class="card-body">
-              <h5 class="card-title display-6" style="color: #FFFFFF;">Visual Identity</h5>
-              <h6 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Design</h6>
+              <h2 class="card-title display-6" style="color: #FFFFFF;">Visual Identity</h2>
+              <h5 class="card-subtitle display-6 mb-2" style="color: #CC5FFF; font-size: 20px;">Design</h5>
               <p class="card-text" style="color: #FFFFFF; font-size: 15px;">Design reigns supreme. With expertise in digital, UI/UX, and web development, we tackle design challenges head-on. Our commitment to amplifying your message ensures it reaches and resonates with your audience.</p>
               <a href=" <%= about_path %> " class="card-link-hover" style="color: #C64DFF;">Learn more</a>
             </div>
@@ -120,7 +120,7 @@
           <h3 class="testimonial-text" style="color: #FFFFFF; font-size: 20px;">
             "We worked with Monarch Digital for about a year and a half at FAMM, and their professional, eye-catching designs elevated our social media presence. Accommodating and skilled, the team met all deadlines, offered valuable strategy suggestions, and was consistently easy to work with."<br>
             <br>
-            MaríaEmilia Morazán | FAMM Digital Communications Manager
+            MaríaEmilia Morazán | FAMM Foundation
           </h3>
         </div>
       </div>
@@ -144,29 +144,29 @@
         <div class="col-lg-7 pt-4">
           <div class="row justify-content-between">
             <div class="col-lg-3 col-md-4 col-4 logo-container-home">
-              <%= image_tag "latinxedlogo.png", class: "logo"%>
+              <%= link_to image_tag("latinxedlogo.png", class: "logo"), 'https://latinxed.org/', target: "_blank" %>
             </div>
             <div class="col-lg-3 col-md-4 col-4 logo-container-home">
-              <%= image_tag "fammlogo.png", class: "logo"%>
+              <%= link_to image_tag("fammlogo.png", class: "logo"), 'https://famm.org', target: "_blank" %>
             </div>
             <div class="col-lg-3 col-md-4 col-4 logo-container-home">
-              <%= image_tag "newpoderlatinxlogo.png", class: "logo"%>
+              <%= link_to image_tag("newpoderlatinxlogo.png", class: "logo"), 'https://poderlatinx.org/', target: "_blank" %>
             </div>
           </div>
         </div>
       </div>
       <div class="row justify-content-between pt-5">
         <div class="col-lg-3 col-md-4 col-6 logo-container-home">
-          <%= image_tag "ricky_house.png", class: "logo"%>
+          <%= link_to image_tag("ricky_house.png", class: "logo"), 'https://rickyhurtado.org/', target: "_blank" %>
         </div>
         <div class="col-lg-3 col-md-4 col-6 logo-container-home">
-          <%= image_tag "runtheworldlogo.png", class: "logo"%>
+          <%= link_to image_tag("runtheworldlogo.png", class: "logo"), 'https://runtheworlddigital.com/', target: "_blank" %>
         </div>
         <div class="col-lg-3 col-md-4 col-6 logo-container-home">
-          <%= image_tag "ncdplogo.png", class: "logo"%>
+          <%= link_to image_tag("ncdplogo.png", class: "logo"), 'https://www.ncdp.org/', target: "_blank" %>
         </div>
         <div class="col-lg-3 col-md-4 col-6 logo-container-home">
-          <%= image_tag "acdplogo.png", class: "logo"%>
+          <%= link_to image_tag("acdplogo.png", class: "logo"), 'https://alamancedemocraticparty.com/', target: "_blank" %>
         </div>
       </div>
     </div>

@@ -1,0 +1,40 @@
+.servicesheader-cont {
+  background:
+    linear-gradient(180deg, rgba(7, 13, 33, 0) 0%, rgba(35, 13, 58, 0.7049194677871149) 54%, rgba(7, 13, 33, 1) 100%),
+    /* Gradient overlay */
+    url(image-path('servicespage.png'));
+  /* Actual background image */
+  background-size: cover;
+  /* To cover the entire container */
+  background-position: center;
+  /* To center the image */
+  background-repeat: no-repeat;
+  /* To prevent the image from repeating */
+}
+
+.servicesimage-container {
+  min-height: 70vh;
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: column;
+  /* Stack children vertically */
+  justify-content: flex-end;
+  /* Align children to the bottom */
+  padding-bottom: 7vh;
+  /* Optional padding at the bottom */
+}
+
+.servicesmain-cont {
+  background: linear-gradient(0deg, rgba(35, 13, 58, 1) 0%, rgba(7, 13, 33, 1) 100%);
+  min-height: auto;
+}
+
+.services-section {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.good {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+}
