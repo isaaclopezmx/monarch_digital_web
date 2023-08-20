@@ -1,6 +1,24 @@
 .black-cont {
-  background: rgb(7, 13, 33);
-  background: linear-gradient(0deg, rgba(7, 13, 33, 1) 0%, rgba(35, 13, 58, 1) 100%);
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(7, 13, 33, 0) 0%, rgba(35, 13, 58, 0.7049194677871149) 54%, rgba(7, 13, 33, 1) 100%);
+  /* Gradient overlay */
+}
+
+.black-cont::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(image-path('rickyprotest.jpg')) center/cover no-repeat;
+  /* Actual background image */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* Filter to make the image black and white */
+  z-index: -1;
+  /* Place it behind the content */
 }
 
 .homesec-one {
@@ -8,7 +26,23 @@
 }
 
 .intro-header {
-  padding-top: 7vh;
+  padding-top: 15%;
+}
+
+/* For tablets */
+@media (max-width: 820px) {
+  .intro-header {
+    padding-top: 50% !important;
+    /* Adjust as needed */
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 576px) {
+  .intro-header {
+    padding-top: 50% !important;
+    /* Adjust as needed */
+  }
 }
 
 .black-cont {
@@ -23,20 +57,21 @@
 .services-cont {
   background: rgb(7, 13, 33);
   background: linear-gradient(0deg, rgba(7, 13, 33, 1) 0%, rgba(35, 13, 58, 1) 100%);
-  min-height: 75vh;
+  min-height: auto;
 }
 
 .services-section {
-  padding-top: 5vh;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .movement-makers-cont {
   background-color: #F5F5F5;
-  min-height: 50vh;
 }
 
 .movementmakers-section {
-  padding-top: 5vh;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .trust-monarch {
@@ -88,8 +123,9 @@
 }
 
 .mission-section {
-  min-height: 50vh;
-  padding-top: 10vh;
+  padding-top: 7%;
+  padding-bottom: 7%;
+
 }
 
 .image-container img {
@@ -107,24 +143,6 @@
   z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .image-container-mobile {
-    display: block;
-  }
-
-  .image-container {
-    display: none;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 991.98px) {
-  .image-container img {
-    max-height: 65vh;
-    right: -18VH;
-    bottom: 0.5vh;
-    /* Adjust this value to position the image partially off-screen for tablets */
-  }
-}
 
 .hero-button {
   background: linear-gradient(90deg, rgba(155, 95, 255, 1) 0%, rgba(3, 255, 255, 1) 100%);
@@ -187,28 +205,6 @@
   }
 }
 
-@media (max-width: 768px) {
-
-  /* Adjust the breakpoint as needed */
-  .responsive-break {
-    display: none;
-    /* Hides the <br> tag on smaller screens */
-  }
-}
-
-@media (min-width: 768px) {
-  .intro-header {
-    padding-top: 15vh;
-    /* Adjust as needed for desktop */
-  }
-}
-
-@media (max-width: 768px) {
-  #services #testimonial-row {
-    padding-top: 0vh !important;
-    padding-bottom: 4vh !important;
-  }
-}
 
 @media (max-width: 991.98px) {
 
@@ -219,11 +215,6 @@
   }
 }
 
-@media (max-width: 991.98px) {
-  .mission-section {
-    padding-top: 5vh;
-  }
-}
 
 @media (max-width: 991.98px) {
   #services .col-lg-3 {

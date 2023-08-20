@@ -33,16 +33,3 @@
   font-weight: 200;
   font-size: 20px;
 }
-
-@media (max-width: 768px) {
-  .footer-text {
-    font-size: 16px;
-    padding-top: 2px !important;
-    /* or whatever size you want for mobile */
-  }
-
-  .display-6 {
-    font-size: 18px;
-    /* or whatever size you want for mobile */
-  }
-}
