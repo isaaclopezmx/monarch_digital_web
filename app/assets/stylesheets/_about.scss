@@ -2,7 +2,7 @@
   background:
     linear-gradient(180deg, rgba(7, 13, 33, 0) 0%, rgba(35, 13, 58, 0.7049194677871149) 54%, rgba(7, 13, 33, 1) 100%),
     /* Gradient overlay */
-    url(image-path('rickybackgroundimage.jpg'));
+    url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741540/ahzrvyzpnuipe7whuskw.jpg');
   /* Actual background image */
   background-size: cover;
   /* To cover the entire container */
@@ -108,21 +108,21 @@
 }
 
 .photo-two {
-  background-image: url(image-path('capitolhillbg.jpg'));
+  background-image: url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741492/pwtpoq7yj7xospivxpeq.jpg');
   background-size: cover;
   filter: grayscale(100%);
   background-position: center;
 }
 
 .photo-three {
-  background-image: url(image-path('consulting.png'));
+  background-image: url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741493/yigcmimf6klpn1yo3zid.avif');
   background-size: cover;
   filter: grayscale(100%);
   background-position: center;
 }
 
 .photo-four {
-  background-image: url(image-path('palacionacional.png'));
+  background-image: url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741516/pynyzgrky07kqk81dyxz.avif');
   background-size: cover;
   filter: grayscale(100%);
   background-position: center;
@@ -142,7 +142,7 @@
 
 .teamphoto-one {
   min-height: 500px;
-  background-image: url(image-path('isaacweb.jpg'));
+  background-image: url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741504/d11rgexnnyzozrctxyxz.jpg');
   background-size: cover;
   background-position: center 5%;
   filter: grayscale(100%);
@@ -150,7 +150,7 @@
 
 .teamphoto-two {
   min-height: 500px;
-  background-image: url(image-path('kristenpowersportrait.jpg'));
+  background-image: url('http://res.cloudinary.com/dqe5h0j32/image/upload/v1692741507/hsfpqok7inxocenfydzh.jpg');
   background-size: cover;
   background-position: center 5%;
   filter: grayscale(100%);

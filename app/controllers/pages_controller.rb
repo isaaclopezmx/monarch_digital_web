@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+  helper_method :image_mapping
   def home; end
   def about; end
   def services; end
