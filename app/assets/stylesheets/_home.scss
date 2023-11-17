@@ -50,6 +50,7 @@
   /* to contain the absolutely positioned child */
 }
 
+
 .mission-cont {
   background-color: #F5F5F5;
 }
@@ -70,8 +71,8 @@
 }
 
 .movementmakers-section {
-  padding-top: 7%;
-  padding-bottom: 7%;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 .trust-monarch {
@@ -143,6 +144,17 @@
   z-index: 1;
 }
 
+.mission-cont {
+  height: 45vh;
+  /* Example height, adjust as needed */
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
 
 .hero-button {
   background: linear-gradient(90deg, rgba(155, 95, 255, 1) 0%, rgba(3, 255, 255, 1) 100%);
@@ -167,35 +179,24 @@
   align-items: center;
 }
 
-.logo {
-  /* Set specific dimensions for the image */
-  height: 100px;
-  width: auto;
-  /* Maintain aspect ratio without distortion */
-  object-fit: contain;
-  /* Center the logo if needed */
-  display: block;
-  margin: 0 auto;
-}
+
 
 .wrap-row {
   flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
+.carousel {
+  background-color: #F5F5F5;
+}
 
-  .logo-container-home,
-  .logo-container {
-    /* Stack the logos vertically on smaller screens */
-    flex-direction: column;
-    /* Add some space between the logos */
-    margin-bottom: 20px;
-  }
+.review-cont {
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background-color: #F5F5F5;
+}
 
-  .logo {
-    /* Set a smaller size for the logos on mobile screens */
-    height: 70px;
-  }
+i {
+  font-family: 'Roboto', sans-serif;
 }
 
 @media (max-width: 768px) {

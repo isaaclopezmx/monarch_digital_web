@@ -31,7 +31,7 @@
   </div>
 </section>
 <section id="mission">
-  <div class="class container-fluid mission-cont">
+  <div class="container-fluid mission-cont">
     <div class="container-lg mission-section">
       <div class="row justify-content-start">
         <div class="col-lg-5 text-start">
@@ -111,69 +111,130 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-between pt-3" id="testimonial-row">
-        <div class="services col-12-lg text-center">
-          <h3 class="testimonial-text" style="color: #FFFFFF; font-size: 20px;">
-            "We have worked with Monarch Digital for about a year and a half at FAMM, and their professional, eye-catching designs have elevated our social media presence. Accommodating and skilled, the team meets all deadlines, offers valuable strategy suggestions, and is consistently easy to work with."<br>
-            <br>
-            MaríaEmilia Morazán | FAMM Foundation
-          </h3>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 <section id="movement-makers">
   <div class="container-fluid movement-makers-cont">
     <div class="container-lg movementmakers-section">
-      <div class="row justify-content-between">
-        <div class="col-lg-5 text-start">
-          <h1>
-            <div class="display-5 cause-text">
-              <span class="marker-underline">Movement Makers
-                <div class="underline"></div>
-              </span><br>
-              trust Monarch Digital.
-            </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-5 cause-text">
+            <span class="marker-underline">Movement Makers
+              <div class="underline"></div>
+            </span>
+            trust Monarch Digital.
           </h1>
         </div>
-        <div class="col-lg-7 pt-4">
-          <div class="row justify-content-between">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-6 logo-container-home">
-              <%= link_to image_tag(cloudinary_image_path("app/assets/images/latinxedlogo.png"), class: "logo", alt: "LatinxEd Logo"), 'https://latinxed.org/', target: "_blank" %>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-6 logo-container-home">
-              <%= link_to image_tag(cloudinary_image_path("app/assets/images/alamanceforwardlogo.png"), class: "logo", alt: "Alamance Forward Logo"), 'https://latinxed.org/', target: "_blank" %>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-6 logo-container-home">
-              <%= link_to image_tag(cloudinary_image_path("app/assets/images/fammlogo.png"), class: "logo", alt: "Famm Logo"), 'https://famm.org', target: "_blank" %>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-6 logo-container-home">
-              <%= link_to image_tag(cloudinary_image_path("app/assets/images/newpoderlatinxlogo.png"), class: "logo", alt: "Poderlatinx Logo"), 'https://poderlatinx.org/', target: "_blank" %>
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="row justify-content-between pt-5">
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag(cloudinary_image_path("app/assets/images/ricky_house.png"), class: "logo", alt: "Ricky NC 63 Logo"), 'https://rickyhurtado.org/', target: "_blank" %>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center pt-4 g-4">
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700158625/latinxedMD_mtxdhc.png', class: "logo img-fluid", alt: "LatinxEd Logo"), 'https://latinxed.org/', target: "_blank" %>        </div>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700158901/ncdemsMD_c5pwng.png', class: "logo img-fluid", alt: "NCDP Logo"), 'https://ncdp.org/', target: "_blank" %>        </div>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700158385/FAMMMD_a0bfnn.png', class: "logo img-fluid", alt: "Famm Foundation Logo"), 'https://famm.org/', target: "_blank" %>        </div>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700158901/rickyhouseMD_akmktf.png', class: "logo img-fluid", alt: "Ricky Hurtado Logo"), 'https://rickyhurtadofornc.com/', target: "_blank" %>        </div>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700158900/poderMD_d6famd.png', class: "logo img-fluid", alt: "Poder Latinx Logo"), 'https://poderlatinx.org/', target: "_blank" %>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag(cloudinary_image_path("app/assets/images/runtheworldlogo.png"), class: "logo", alt: "Run the world Logo"), 'https://runtheworlddigital.com/', target: "_blank" %>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700160165/runtheworldMD_bkwh6j.png', class: "logo img-fluid", alt: "RuntheWorld Logo"), '', target: "_blank" %>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag(cloudinary_image_path("app/assets/images/ncdplogo.png"), class: "logo", alt: "north carolina democratic party Logo"), 'https://www.ncdp.org/', target: "_blank" %>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700160957/ACDPMD_ttne2f.png', class: "logo img-fluid", alt: "ACDP Logo"), 'https://alamancedemocraticparty.com/', target: "_blank" %>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag(cloudinary_image_path("app/assets/images/acdplogo.png"), class: "logo", alt: "alamance democratic party Logo"), 'https://alamancedemocraticparty.com/', target: "_blank" %>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700161135/YDACMD_w5e1zt.png', class: "logo img-fluid", alt: "ACDP Logo"), 'https://alamancedemocraticparty.com/', target: "_blank" %>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag(cloudinary_image_path("app/assets/images/ydaclogo.png"), class: "logo", alt: "young democrats of alamance county Logo"), 'https://alamancedemocraticparty.com/', target: "_blank" %>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700161386/BethMD_oph1zq.png', class: "logo img-fluid", alt: "Beth Kennett Logo"), 'https://bethkennettforburlington.com/', target: "_blank" %>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-4 col-6 logo-container-home">
-          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1692997709/Beth%20For%20Mayor/Kennet_for_Mayor_Dark_Logo_3x_drjcwj.webp', class: 'logo', alt: 'Beth Kennett For Burlington Mayor Logo'), 'https://www.bethkennetforburlington.com/', target: '_blank' %>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700161520/AFMD_tpgzza.png', class: "logo img-fluid", alt: "Beth Kennett Logo"), 'https://latinxed.org/alamanceforward/', target: "_blank" %>
         </div>
+        <div class="col logo-container-home">
+          <%= link_to image_tag('https://res.cloudinary.com/dqe5h0j32/image/upload/v1700161768/Onpointstudios_jvznp8.png', class: "logo img-fluid", alt: "Beth Kennett Logo"), 'https://latinxed.org/alamanceforward/', target: "_blank" %>
+        </div>
+        <!-- Additional logos here -->
       </div>
     </div>
   </div>
 </section>
+<section id="reviews">
+  <div class="container-fluid review-cont">
+    <!-- Carousel wrapper -->
+    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="rounded-circle shadow-1-strong mb-4"
+  src="https://res.cloudinary.com/dqe5h0j32/image/upload/v1700163826/rickyMD_ilcsll.png" alt="avatar"
+  style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <div class="display-5 cause-text">
+                <span class="marker-underline">Ricky Hurtado
+                  <div class="underline"></div>
+                </span>
+              </div>
+              <p class="pt-2">North Carolina Legislator</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Monarch Digital stands out with unparalleled integrity, commitment, design and technical expertise. Their adaptability and growth mindset make them an invaluable partner for any organization."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="rounded-circle shadow-1-strong mb-4"
+  src="https://res.cloudinary.com/dqe5h0j32/image/upload/v1700165948/bethmd3_b1rwgx.png" alt="avatar"
+  style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <div class="display-5 cause-text">
+                <span class="marker-underline">Beth Kennett
+                  <div class="underline"></div>
+                </span>
+              </div>
+              <p class="pt-2">Candidate for Burlington Mayor - NC</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                In my run for Burlington mayor, Monarch Digital was more than a web team; they are great partners who truly understood my vision. Their dedication, creativity, and ability to adapt made my campaign come alive online, making a real difference in connecting with the community. They're not just skilled professionals; they're invaluable allies in any campaign's digital journey."
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="rounded-circle shadow-1-strong mb-4"
+  src="https://res.cloudinary.com/dqe5h0j32/image/upload/v1700166378/MEMD_wwrphh.png" alt="avatar"
+  style="width: 150px;" />
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <div class="display-5 cause-text">
+                <span class="marker-underline">MariaEmilia Morazán
+                  <div class="underline"></div>
+                </span>
+              </div>
+              <p class="pt-2">Global Project Manager</p>
+              <p class="text-muted">
+                <i class="fas fa-quote-left pe-2"></i>
+                Partnering with Monarch Digital has been an absolute pleasure for us at FAMM. Their team's dedication to meeting every deadline, coupled with their deep understanding of progressive and social advocacy, brought a new level of excellence to our work. It's refreshing to work with a team that's always available and so in tune with our needs."
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+    data-mdb-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+    </div>
+  </section>
